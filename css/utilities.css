@@ -1,0 +1,58 @@
+/*Headings, Call-to-actions, Header Navigation*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+/*Body*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Colors*/
+:root {
+  /*primary colors*/
+
+  /*intro and email sign up background */
+  --dark-blue: hsl(217, 28%, 15%);
+  /*main background*/
+  --dark-main-blue: hsl(218, 28%, 13%);
+  /*footer background*/
+  --dark-footer-blue: hsl(216, 53%, 9%);
+  /*testimonials background*/
+  --testimonials-bg: hsl(219, 30%, 18%);
+
+  /*accent colors*/
+  /*inside call-to-action gradient*/
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  /*error essage*/
+  --error-red: hsl(0, 100%, 63%);
+
+  /*Neutral color*/
+  --white: hsl(0, 0%, 100%);
+}
+
+.btn {
+  border: none;
+  background: var(--cyan);
+  color: var(--white);
+  padding: 12px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  filter: brightness(130%);
+}
