@@ -319,6 +319,32 @@ footer section {
 }
 
 /*media query section*/
+
+@media screen and (max-width: 500px) {
+  .navbar nav ul li {
+    padding: 0 13px;
+    font-size: 12px;
+  }
+
+  .productive-info {
+    width: 100%;
+  }
+  .main-info-container {
+    width: 100%;
+  }
+
+  .mid-info-element {
+    width: 100%;
+    padding: 30px;
+  }
+  .review-card {
+    width: 100%;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .main-info {
     background: url(../images/bg-curvy-desktop.svg) no-repeat -40vh 35vh;
@@ -440,7 +466,7 @@ footer section {
 
 @media screen and (max-width: 620px) {
   .main-info {
-    background: url(../images/bg-curvy-mobile.svg) no-repeat 00px 250px;
+    background: url(../images/bg-curvy-mobile.svg) no-repeat 0px 250px;
     background-size: contain;
   }
 }
